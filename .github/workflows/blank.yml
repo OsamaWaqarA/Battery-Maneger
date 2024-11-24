@@ -1,5 +1,0 @@
-import psutil # Impoting the module 
-while True: # Lopping again and again
-    cpu = psutil.cpu_percent() # Taking in cpu percent 
-    battery = psutil.sensors_battery() # taking all battery info
-    print(cpu,battery) # printing them on the screen
